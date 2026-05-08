@@ -10,8 +10,8 @@ api_key = 'Enter your API key here'
 
 bot = Bot(token=my_token)
 
-ALERT_HOURS = [7, 10, 13, 16, 19, 22]                                     # Hourly alerts every 3 hours
-ALERT_TIMES = ["08:30", "15:20"]                                          # Custom time alerts (add your times here)
+ALERT_HOURS = [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]     # Hourly alerts every 1 hours / 07:00 ~ 22:00
+ALERT_TIMES = ["08:30", "12:35"]                                                # Custom time alerts (add your times here)
 
 def getWeather():
     url = f"https://api.openweathermap.org/data/2.5/forecast?q=Seoul&appid={api_key}&units=metric&lang=en&cnt=8"
